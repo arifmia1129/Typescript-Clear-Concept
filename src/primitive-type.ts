@@ -1,15 +1,15 @@
-/**
- * string
- * number
- * boolean
- * null
- * undefined
- * */
+// /**
+//  * string
+//  * number
+//  * boolean
+//  * null
+//  * undefined
+//  * */
 
-const str: string = 'My name is Arif';
+// const str: string = 'My name is Arif';
 
-const age: number = 12;
+// const age: number = 12;
 
-const isAdult: boolean = true;
+// const isAdult: boolean = true;
 
-const otherInfo: null = null;
+// const otherInfo: null = null;
