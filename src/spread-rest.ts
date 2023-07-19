@@ -1,32 +1,32 @@
-// spread
+// // spread
 
-const adultMember: string[] = ['Arif', 'Binu'];
-const childMember: string[] = ['Ariba', 'Abdullah'];
+// const adultMember: string[] = ['Arif', 'Binu'];
+// const childMember: string[] = ['Ariba', 'Abdullah'];
 
-adultMember.push(...childMember);
+// adultMember.push(...childMember);
 
-console.log(adultMember);
+// console.log(adultMember);
 
-// rest parameter
+// // rest parameter
 
-const auth = (...role: string[]): string => {
-  if (role.includes('admin')) {
-    return 'You are a valid user';
-  } else {
-    return 'Status code 401';
-  }
-};
+// const auth = (...role: string[]): string => {
+//   if (role.includes('admin')) {
+//     return 'You are a valid user';
+//   } else {
+//     return 'Status code 401';
+//   }
+// };
 
-console.log(auth('admin'));
+// console.log(auth('admin'));
 
-const totalCost = (...cost: number[]): number => {
-  let sum = 0;
+// const totalCost = (...cost: number[]): number => {
+//   let sum = 0;
 
-  cost.map((amount: number) => {
-    sum = sum + amount;
-  });
+//   cost.map((amount: number) => {
+//     sum = sum + amount;
+//   });
 
-  return sum;
-};
+//   return sum;
+// };
 
-console.log(totalCost(1, 2, 3));
+// console.log(totalCost(1, 2, 3));
